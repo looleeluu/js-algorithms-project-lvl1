@@ -1,0 +1,36 @@
+{
+  "name": "@hexlet/js-algorithms-project-lvl1",
+  "simple-git-hooks": {
+    "pre-push": "make lint"
+  },
+  "version": "0.0.1",
+  "description": "js algo project",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "npx jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/looleeluu/js-algorithms-project-lvl1.git"
+  },
+  "keywords": [],
+  "author": "Ilya Sinegubkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/looleeluu/js-algorithms-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/looleeluu/js-algorithms-project-lvl1#readme",
+  "devDependencies": {
+    "editorconfig": "^0.15.3",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
+    "simple-git-hooks": "^2.7.0"
+  }
+}
