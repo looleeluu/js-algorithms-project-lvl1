@@ -5,7 +5,7 @@
   },
   "version": "0.0.1",
   "description": "js algo project",
-  "main": "index.js",
+  "main": "bin/index.js",
   "type": "module",
   "engines": {
     "node": ">=14"
@@ -32,5 +32,8 @@
     "jest": "^27.4.5",
     "prettier": "^2.5.1",
     "simple-git-hooks": "^2.7.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
